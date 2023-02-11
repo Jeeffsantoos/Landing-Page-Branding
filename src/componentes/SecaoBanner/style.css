@@ -1,0 +1,58 @@
+#secao-banner {
+  height: 95vh;
+  padding-top: 90px;
+  display: flex;
+  position: relative;
+
+}
+
+#banner-imagem {
+  width: 50%;
+  background-image: url('../../assets/banner.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner-claro {
+  background-color: #FFF;
+}
+
+.banner-texto {
+  display: flex;
+  padding: 0 20px;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#fafbfc ;
+  color: #022144;
+  width: 50%;
+}
+
+.banner-texto p {
+font-size: 16px;
+padding-bottom: 5px;
+}
+
+.banner-texto h2 {
+  font-size: 50px;
+  width: 500px;
+  word-wrap: break-word;
+  font-weight: 300;
+}
+
+.banner-texto span {
+  font-size: 55px;
+  font-weight: 900;
+}
+
+@media (max-width: 768px){
+  #banner-imagem {
+    width: 0;
+  }
+
+  .banner-texto{
+    width: 100%;
+  }
+  
+}

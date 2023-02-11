@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+
+}
+.header-claro {
+  background-color: #fff;
+}
+.logo {
+  max-height: 35px;
+}
+
+.iconeBtn {
+  width: 25px;
+  height: 25px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.botao-claro {
+  background-color: #fff;
+  border: 2px solid #747272;
+  border-radius: 25px;
+}

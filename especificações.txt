@@ -1,0 +1,51 @@
+Tipos de resolição de telas:
+
+    Desktop (1920px)
+    Laptop (1440px)
+    Tablet (768px)
+    Mobile (375px)
+
+Terá Dark Mode com a interação do usuário:
+  Mudas as cores e a imagem do botão
+
+A página terá 5 componentes: 
+  Topo;
+  Banner;
+  Experiências de Trabalho;
+  Cards;
+  Rodapé.
+
+Fonte de texto será a Poppins:
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+Cores do modo claro:
+    #022144
+    #fafbfc
+    #32333c
+    #f6f8fc
+    #8a8fa3
+    #fff
+    #feb633
+
+Cores do modo escuro: 
+    #022144
+    #fafbfc
+    #CCCCCC
+    #9F9F9F
+    #393838
+    #252525
+    #feb633
+
+Primeiro fazer os componentes de forma separada (Html e depois CSS) e depois exporta-lós.
+
+Depois refatorar com os Props;
+Instalar a funcionalidade;
+Refatorar a funcionalidade;
+
+
+
+
+

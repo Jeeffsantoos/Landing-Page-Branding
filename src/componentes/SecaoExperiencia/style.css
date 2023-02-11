@@ -1,0 +1,73 @@
+#secao-exp  {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f8fc;
+}
+
+.secao-exp-claro {
+  background-color: #f6f8fc;
+}
+
+#exp-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#exp-texto h3 {
+  position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+#exp-texto h3::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100px;
+  height: 4px;
+  background-color: #feb633;
+}
+
+.texto-exp-claro h3 {
+  color: #32333c;
+}
+
+#exp-texto p {
+  text-align: center;
+  font-size: 22px;
+  max-width: 1000px;
+  margin-bottom: 50px;
+}
+
+.texto-exp-claro p {
+  color: #8a8fa3;
+}
+
+.secao-card{
+display: flex;
+justify-content: center;
+}
+
+.limitar-secao {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px){
+  .secao-card {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+  }
+}
