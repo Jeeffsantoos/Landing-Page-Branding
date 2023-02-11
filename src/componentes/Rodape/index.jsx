@@ -15,7 +15,7 @@ import iconeGoogle from "../../assets/google-plus.png"
 export default function Rodape(props) {
   return (
     <footer className="footer-claro">
-      <img className="logo" src={Logo} alt="Logo" />
+      <img className="logo-rodape" src={Logo} alt="Logo" />
       <div id="footer-txt" className="footer-txt-claro">
         <p>
           Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
