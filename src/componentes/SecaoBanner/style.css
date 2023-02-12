@@ -36,7 +36,7 @@ padding-bottom: 5px;
 
 .banner-texto h2 {
   font-size: 50px;
-  width: 500px;
+  max-width: 50%;
   word-wrap: break-word;
   font-weight: 300;
 }
@@ -54,6 +54,7 @@ padding-bottom: 5px;
   .banner-texto{
     width: 100%;
     padding: 0;
+    padding-left: 5px;
   }
   
 }
