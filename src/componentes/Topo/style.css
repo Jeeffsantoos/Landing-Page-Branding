@@ -36,6 +36,8 @@ button {
 @media (max-width:378px){
 .limitar-secao-header {
   max-width: 100vw;
+  padding:20px 5px;
+  margin: 0;
 }
 
 .iconeBtn {
