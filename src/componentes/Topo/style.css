@@ -50,3 +50,22 @@ button {
 }
 
 }
+
+
+@media (max-width:415px){
+  .limitar-secao-header {
+    max-width: 100vw;
+    padding:20px 0px;
+    margin: 0 auto;
+  }
+  
+  .iconeBtn {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .logo {
+    max-height: 25px;
+  }
+  
+  }
