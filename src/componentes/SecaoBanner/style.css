@@ -58,3 +58,12 @@ padding-bottom: 5px;
   }
   
 }
+
+
+@media (max-width: 375px){
+  .banner-texto h2 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  
+}
