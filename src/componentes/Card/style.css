@@ -61,4 +61,36 @@
     padding: 70px 20px;
     margin: 0 auto;
   }
+
+  #card:hover{
+    background-color: #feb633;
+    transform: scale(1);
+    transition: all 1s;
+  
+  }
+  
+  #card:not(:hover) {
+    transform: scale(0.9);
+    transition: all 1s;
+  }
+}
+
+@media (max-width:415px){
+  #card {
+    width: 90%;
+    padding: 70px 20px;
+    margin: 0 auto;
+  }
+
+  #card:hover{
+    background-color: #feb633;
+    transform: scale(1);
+    transition: all 1s;
+  
+  }
+  
+  #card:not(:hover) {
+    transform: scale(0.9);
+    transition: all 1s;
+  }
 }
