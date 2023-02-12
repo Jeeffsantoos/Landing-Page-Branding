@@ -58,3 +58,10 @@ footer span{
     width: 80%;
   }
 }
+
+@media (max-width: 375) {
+  .icones img {
+    height: 35px;
+    margin: 15px 3px;
+  }
+}
