@@ -101,4 +101,12 @@ justify-content: center;
     width: 80%;
     margin: 0 auto;
   }
+
+  #exp-texto h3::before {
+    transform: translateY(100%);
+  }
+  
+  #exp-texto h3:hover::before {
+    transform: translateY(0%);
+  }
 }
