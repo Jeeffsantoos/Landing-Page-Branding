@@ -54,7 +54,7 @@ button {
 
 @media (max-width:415px){
   .limitar-secao-header {
-    max-width: 100vw;
+    width: 100vw;
     padding:20px 0px;
     margin: 0 auto;
   }
