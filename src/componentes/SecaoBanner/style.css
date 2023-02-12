@@ -1,6 +1,6 @@
 #secao-banner {
   height: 95vh;
-  padding-top: 90px;
+  padding-top: 89px;
   display: flex;
   position: relative;
 
@@ -17,6 +17,10 @@
 
 .banner-claro {
   background-color: #FFF;
+}
+
+.banner-escuro {
+  background-color: #252525;
 }
 
 .banner-texto {

@@ -4,11 +4,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f6f8fc;
 }
 
 .secao-exp-claro {
   background-color: #f6f8fc;
+}
+
+.secao-exp-escuro {
+  background-color: #393838;
 }
 
 #exp-texto {
@@ -42,6 +45,10 @@
   color: #32333c;
 }
 
+.texto-exp-escuro h3 {
+  color: #CCCCCC;
+}
+
 #exp-texto p {
   text-align: center;
   font-size: 22px;
@@ -51,6 +58,10 @@
 
 .texto-exp-claro p {
   color: #8a8fa3;
+}
+
+.texto-exp-escuro p {
+  color: #CCCCCC;
 }
 
 .secao-card{

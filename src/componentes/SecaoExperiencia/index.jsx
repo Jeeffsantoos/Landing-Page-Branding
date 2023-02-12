@@ -4,8 +4,8 @@ import "./style.css";
 
 export default function Experiencia() {
   return (
-    <section id="secao-exp" className="secao-exp-claro">
-      <div id="exp-texto" className="texto-exp-claro">
+    <section id="secao-exp" className="secao-exp-escuro">
+      <div id="exp-texto" className="texto-exp-escuro">
         <h3>Experiências De Trabalho</h3>
         <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital, nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.</p>
       </div>

@@ -8,9 +8,11 @@
 
 
 #card:hover{
-  background-color: #feb633;
+  background-color: #feb63f5f;
   transform: scale(1.1);
   transition: all 1s;
+ 
+  
 
 }
 
@@ -38,6 +40,16 @@
 .card-claro h4 {
   color: #32333a;
 }
+
+
+.card-escuro p {
+  color: #9f8f9f;
+}
+
+.card-escuro h4 {
+  color: #ffffff;
+}
+
 
 .primeiroParagrafo {
   margin-bottom: 5px;

@@ -4,7 +4,7 @@ import "./style.css";
 export default function Banner() {
   return (
     <section id="secao-banner">
-      <div id="banner-imagem" className="banner-claro"></div>
+      <div id="banner-imagem" className="banner-escuro"></div>
 
       <div className="banner-texto">
         <p>BRANDING / UI / UX / TECNOLOGIA</p>

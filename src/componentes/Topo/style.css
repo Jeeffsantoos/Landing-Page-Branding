@@ -11,6 +11,11 @@ header {
 .header-claro {
   background-color: #fff;
 }
+
+.header-escuro {
+  background-color: #252525;
+}
+
 .logo {
   max-height: 35px;
 }
@@ -30,6 +35,12 @@ button {
 .botao-claro {
   background-color: #fff;
   border: 2px solid #747272;
+  border-radius: 25px;
+}
+
+.botao-escuro {
+  background-color: #fff;
+  border: 2px solid #252525;
   border-radius: 25px;
 }
 
