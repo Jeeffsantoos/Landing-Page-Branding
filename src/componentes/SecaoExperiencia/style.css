@@ -76,5 +76,6 @@ justify-content: center;
   .secao-card {
   padding: 0;
     width: 80%;
+    margin: 0 auto;
   }
 }

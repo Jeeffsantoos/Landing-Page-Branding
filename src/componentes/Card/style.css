@@ -59,5 +59,6 @@
   #card {
     width: 90%;
     padding: 70px 20px;
+    margin: 0 auto;
   }
 }
