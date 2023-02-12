@@ -5,7 +5,7 @@ import iconeLua from "../../assets/moon.png"
 
 export default function Topo() {
   return (
-    <header className="header-claro">
+    <header className="header-claro limitar-secao-header">
       <img className="logo" src={Logo} alt="Logo" />
       <button className="botao-claro">
         <img className="iconeBtn" src={iconeLua} alt="Lua" />

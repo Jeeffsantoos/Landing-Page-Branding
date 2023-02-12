@@ -34,8 +34,12 @@ button {
 }
 
 @media (max-width:375px){
-header {
-  max-width: 345px;
-  width: 60%;
+.limitar-secao-header {
+  max-width: 70vw;
+  width: 100%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
 }
 }
