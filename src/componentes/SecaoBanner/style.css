@@ -17,10 +17,12 @@
 
 .banner-claro {
   background-color: #FFF;
+  transition: all 0.5s;
 }
 
 .banner-escuro {
   background-color: #252525;
+  transition: all 0.5s;
 }
 
 .banner-texto {

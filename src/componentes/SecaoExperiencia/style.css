@@ -8,10 +8,12 @@
 
 .secao-exp-claro {
   background-color: #f6f8fc;
+  transition: all 0.5s;
 }
 
 .secao-exp-escuro {
   background-color: #393838;
+  transition: all 0.5s;
 }
 
 #exp-texto {
@@ -40,14 +42,21 @@
   width: 100px;
   height: 4px;
   background-color: #feb633;
+  transition: width 0.5s ease-in-out;
+}
+
+#exp-texto h3:hover::before {
+  width: 100%;
 }
 
 .texto-exp-claro h3 {
   color: #32333c;
+  transition: all 0.5s;
 }
 
 .texto-exp-escuro h3 {
   color: #CCCCCC;
+  transition: all 0.5s;
 }
 
 #exp-texto p {
@@ -59,10 +68,12 @@
 
 .texto-exp-claro p {
   color: #8a8fa3;
+  transition: all 0.5s;
 }
 
 .texto-exp-escuro p {
   color: #CCCCCC;
+  transition: all 0.5s;
 }
 
 .secao-card{

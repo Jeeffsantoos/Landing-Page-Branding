@@ -2,10 +2,10 @@ import React from "react";
 import Card from "../Card";
 import "./style.css";
 
-export default function Experiencia() {
+export default function Experiencia(props) {
   return (
-    <section id="secao-exp" className="secao-exp-escuro">
-      <div id="exp-texto" className="texto-exp-escuro">
+    <section id="secao-exp" className={props.temaDark ? "secao-exp-claro" : "secao-exp-escuro"}>
+      <div id="exp-texto" className={props.temaDark ? "texto-exp-claro" : "texto-exp-escuro"}>
         <h3>Experiências De Trabalho</h3>
         <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital, nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.</p>
       </div>

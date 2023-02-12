@@ -35,19 +35,23 @@
 
 .card-claro p {
   color: #8a8fa3;
+  transition: all 0.5s;
 }
 
 .card-claro h4 {
   color: #32333a;
+  transition: all 0.5s;
 }
 
 
 .card-escuro p {
   color: #9f8f9f;
+  transition: all 0.5s;
 }
 
 .card-escuro h4 {
   color: #ffffff;
+  transition: all 0.5s;
 }
 
 

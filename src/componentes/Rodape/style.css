@@ -7,10 +7,12 @@ footer {
 
 .footer-claro {
   background-color: #fff;
+  transition: all 0.5s;
 }
 
 .footer-escuro {
   background-color: #252525;
+  transition: all 0.5s;
 }
 
 .logo-rodape {
@@ -29,12 +31,16 @@ footer {
 
 .footer-txt-claro {
   color: #8a8fa3;
+  transition: all 0.5s;
+  text-align: center;
 }
 
 .footer-txt-escuro {
   color: #8a8fa3;
   border: 2px solid #feb633;
-  padding: 15px;
+  padding: 5px;
+  text-align: center;
+  transition: all 1s;
 }
 
 .icones {
