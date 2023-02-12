@@ -72,7 +72,7 @@ justify-content: center;
   }
 }
 
-@@media (max-width: 400px){
+@@media (max-width: 370px){
   .secao-card {
   
     width: 80%;
