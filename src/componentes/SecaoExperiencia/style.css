@@ -74,7 +74,7 @@ justify-content: center;
 
 @@media (max-width: 370px){
   .secao-card {
-  
+  padding: 0;
     width: 80%;
   }
 }

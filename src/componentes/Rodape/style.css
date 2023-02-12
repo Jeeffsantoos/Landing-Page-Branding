@@ -63,5 +63,6 @@ footer span{
   .icones img {
     height: 35px;
     margin: 15px 3px;
+    padding: 0;
   }
 }
