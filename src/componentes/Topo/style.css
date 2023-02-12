@@ -35,8 +35,8 @@ button {
 
 @media (max-width:400){
 .limitar-secao-header {
-  max-width: 100vw;
-  width: 100%;
+  max-width: 90vw;
+  width: 95%;
 }
 
 .iconeBtn {
@@ -45,7 +45,7 @@ button {
 }
 
 .logo {
-  max-height: 30px;
+  max-height: 25px;
 }
 
 }
