@@ -71,3 +71,10 @@ justify-content: center;
     width: auto;
   }
 }
+
+@@media (max-width: 400px){
+  .secao-card {
+  
+    width: 80%;
+  }
+}
