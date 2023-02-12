@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 
-import Logo from "../../assets/logo.png"
-import iconeFacebook from "../../assets/facebook.png"
-import iconeTwitter from "../../assets/twitter.png"
-import iconeLinkedin from "../../assets/linkedin.png"
-import iconeDribble from "../../assets/dribble.png"
-import iconeBehance from "../../assets/behance.png"
-import iconeGoogle from "../../assets/google-plus.png"
+import Logo from "../../assets/logo.png";
+import iconeFacebook from "../../assets/facebook.png";
+import iconeTwitter from "../../assets/twitter.png";
+import iconeLinkedin from "../../assets/linkedin.png";
+import iconeDribble from "../../assets/dribble.png";
+import iconeBehance from "../../assets/behance.png";
+import iconeGoogle from "../../assets/google-plus.png";
 
 
 
@@ -34,5 +34,5 @@ export default function Rodape(props) {
         <p>Copyright 2022 &copy; <span>Jefferson Lima</span></p>
       </div>
     </footer>
-  )
+  );
 }
